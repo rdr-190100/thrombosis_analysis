@@ -1,0 +1,32 @@
+project:
+  type: website
+
+website:
+  title: "Thrombosis Analysis"
+  navbar:
+    left:
+      - href: https://ramdayalrewaria.quarto.pub/
+        text: Home
+      - href: Results.qmd
+        text: Report
+    right: 
+      - icon: github
+        href: https://github.com/anly503/hw2-spring-2023-rdr-190100
+      - icon: linkedin
+        href: https://www.linkedin.com/in/ramdayal-rewaria/
+
+format:
+  html:
+    theme: lumen
+    toc: true
+    self-contained: true
+    embed-resources: true
+    page-layout: full
+    code-fold: true
+    code-tools: true
+
+execute: 
+  freeze: auto
+
+
+
